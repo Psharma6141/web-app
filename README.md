@@ -57,12 +57,13 @@ VITE_API_URL=**http://localhost:5000/api**
 | POST   | /tasks         | Create task   |
 | PUT    | /tasks/:id     | Update task   |
 | DELETE | /tasks/:id     | Delete task   |
+
 ---
 
 ### Deployment
-
+---
 Frontend deployed on Vercel
-Link: **web-app-gray-five.vercel.app**
+Link: web-app-gray-five.vercel.app
 ---
 Backend deployed on Render
 Link: **https://web-app-yv15.onrender.com**
