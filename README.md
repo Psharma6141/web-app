@@ -34,14 +34,17 @@ This project is a full-stack web application built using **React.js** and **Node
 cd backend
 npm install
 node server.js
-
+```
+### Frontend
+```bash
 cd frontend
 npm install
 npm run dev
-
-
+```
 ### API Documentation
-VITE_API_URL=http://localhost:5000/api
+```bash
+VITE_API_URL=**http://localhost:5000/api**
+```
 
 ### API Endpoints Overview
 ### **Auth**
@@ -54,19 +57,20 @@ VITE_API_URL=http://localhost:5000/api
 | POST   | /tasks         | Create task   |
 | PUT    | /tasks/:id     | Update task   |
 | DELETE | /tasks/:id     | Delete task   |
+---
 
-Deployment
+### Deployment
 
 Frontend deployed on Vercel
 Link: **web-app-gray-five.vercel.app**
 
 Backend deployed on Render
 Link: **https://web-app-yv15.onrender.com**
-
-Scalability
+---
+ ### Scalability
 
 This project follows a modular structure, reusable components, middleware-based authentication, and environment-based configuration for easy scalability.
-
+---
 Author
 
 Your Name – Frontend Developer Intern Priyanka sharma MCA
