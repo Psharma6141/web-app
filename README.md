@@ -39,8 +39,12 @@ cd frontend
 npm install
 npm run dev
 
+
+### API Documentation
 VITE_API_URL=http://localhost:5000/api
 
+### API Endpoints Overview
+### **Auth**
 | Method | Endpoint       | Description   |
 | ------ | -------------- | ------------- |
 | POST   | /auth/register | Register user |
@@ -54,10 +58,10 @@ VITE_API_URL=http://localhost:5000/api
 Deployment
 
 Frontend deployed on Vercel
-Link: web-app-gray-five.vercel.app
+Link: **web-app-gray-five.vercel.app**
 
 Backend deployed on Render
-Link: https://web-app-yv15.onrender.com
+Link: **https://web-app-yv15.onrender.com**
 
 Scalability
 
@@ -67,5 +71,5 @@ Author
 
 Your Name – Frontend Developer Intern Priyanka sharma MCA
 
-GitHub Repository:https://github.com/Psharma6141/web-app 
+GitHub Repository:**https://github.com/Psharma6141/web-app**
 
