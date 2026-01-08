@@ -35,16 +35,10 @@ cd backend
 npm install
 node server.js
 
-PORT=5000
-MONGO_URI=your_mongodb_url
-JWT_SECRET=your_secret
-
-### Frontend 
 cd frontend
 npm install
 npm run dev
 
-### create .env
 VITE_API_URL=http://localhost:5000/api
 
 | Method | Endpoint       | Description   |
@@ -60,7 +54,10 @@ VITE_API_URL=http://localhost:5000/api
 Deployment
 
 Frontend deployed on Vercel
+Link: web-app-gray-five.vercel.app
+
 Backend deployed on Render
+Link: https://web-app-yv15.onrender.com
 
 Scalability
 
@@ -68,7 +65,7 @@ This project follows a modular structure, reusable components, middleware-based 
 
 Author
 
-Your Name – Frontend Developer Intern
+Your Name – Frontend Developer Intern Priyanka sharma MCA
 
-GitHub Repository: Add your link here
+GitHub Repository:https://github.com/Psharma6141/web-app 
 
