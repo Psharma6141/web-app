@@ -5,7 +5,7 @@ import User from "../models/User.js";
 
 const router = express.Router();
 
-// Register
+
 router.post("/register", async (req, res) => {
   const { name, email, password } = req.body;
   const hash = await bcrypt.hash(password, 10);
@@ -13,7 +13,7 @@ router.post("/register", async (req, res) => {
   res.json("Registered");
 });
 
-// Login
+
 router.post("/login", async (req, res) => {
   const user = await User.findOne({ email: req.body.email });
   if (!user) return res.status(400).json("Invalid");
