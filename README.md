@@ -42,9 +42,9 @@ npm install
 npm run dev
 ```
 ### API Documentation
-```bash
+
 VITE_API_URL=**http://localhost:5000/api**
-```
+
 
 ### API Endpoints Overview
 ### **Auth**
@@ -67,8 +67,7 @@ Link: **web-app-gray-five.vercel.app**
 Backend deployed on Render
 Link: **https://web-app-yv15.onrender.com**
 ---
- ### Scalability
-
+### Scalability
 This project follows a modular structure, reusable components, middleware-based authentication, and environment-based configuration for easy scalability.
 ---
 Author
